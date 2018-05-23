@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.it.onex.onexprogress.OnexHorizontalProgress
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:progress="10"
+            app:reach_color="@color/colorAccent"
+            app:reach_height="5dp"
+            app:text_color="#ff00ff"
+            app:text_offset="5dp"
+            app:text_size="20sp"
+            app:unreach_color="@color/colorPrimary"
+            app:unreach_height="10dp" />
+
+
+        <com.it.onex.onexprogress.OnexHorizontalProgress
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:progress="0"
+            app:reach_color="@color/colorAccent"
+            app:reach_height="5dp"
+            app:text_color="#ff00ff"
+            app:text_offset="5dp"
+            app:text_size="20sp"
+            app:unreach_color="@color/colorPrimary"
+            app:unreach_height="10dp" />
+
+
+        <com.it.onex.onexprogress.OnexHorizontalProgress
+            android:id="@+id/horizontalProgress"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:progress="100"
+            app:reach_color="@color/colorAccent"
+            app:reach_height="10dp"
+            app:text_color="#ff00ff"
+            app:text_offset="15dp"
+            app:text_size="20sp"
+            app:unreach_color="@color/colorPrimary"
+            app:unreach_height="15dp" />
+
+
+        <com.it.onex.onexprogress.OnexRoundProgress
+            android:id="@+id/onex_round"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:max="100"
+            android:progress="50"
+            app:is_fill="false"
+            app:reach_color="@color/colorAccent"
+            app:reach_height="10dp"
+            app:text_color="#00ffff"
+            app:text_size="20sp"
+            app:unreach_color="#00ffff"
+            app:unreach_height="5dp" />
+
+
+        <com.it.onex.onexprogress.OnexRoundProgress
+            android:id="@+id/onex_round2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:max="100"
+            android:progress="50"
+            app:is_fill="true"
+            app:is_draw_unreach="false"
+            app:reach_color="@color/colorAccent"
+            app:reach_height="10dp"
+            app:text_color="@color/colorAccent"
+            app:text_size="20sp"
+            app:unreach_color="#00ffff"
+            app:unreach_height="5dp" />
+
+
+
+        <com.it.onex.onexprogress.OnexRoundProgress
+            android:id="@+id/onex_round3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:max="100"
+            android:progress="50"
+            app:is_fill="true"
+            app:is_line_fill="false"
+            app:reach_color="@color/colorAccent"
+
+            app:reach_height="10dp"
+            app:text_color="@color/green_end"
+            app:text_size="20sp"
+            app:unreach_color="#00ffff"
+            app:unreach_height="5dp" />
+
+
+        <com.it.onex.progress.MyView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+

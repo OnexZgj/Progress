@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="unreach_color" format="color"></attr>
+    <attr name="reach_color" format="color"></attr>
+    <attr name="unreach_height" format="dimension"></attr>
+    <attr name="reach_height" format="dimension"></attr>
+    <attr name="text_color" format="color"></attr>
+    <attr name="text_size" format="dimension"></attr>
+    <attr name="text_offset" format="dimension"></attr>
+    
+    
+    <declare-styleable name="OnexHorizontalProgress">
+        <attr name="unreach_color" ></attr>
+        <attr name="reach_color"></attr>
+        <attr name="unreach_height"></attr>
+        <attr name="reach_height" ></attr>
+        <attr name="text_color"></attr>
+        <attr name="text_size" ></attr>
+        <attr name="text_offset" ></attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="OnexRoundProgress">
+        <attr name="radius" format="dimension"></attr>
+        <attr name="is_fill" format="boolean"></attr>
+        <attr name="is_line_fill" format="boolean"></attr>
+        <attr name="is_draw_unreach" format="boolean"></attr>
+    </declare-styleable>
+
+
+
+</resources>
